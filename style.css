@@ -9,4 +9,10 @@ h1 {
   color: #32906D; /* Blaue Überschrift */
   border-bottom: 2px solid #32906D;
   padding-bottom: 10px;
+  content:align-center;
+  
+}
+p{
+  content:align-center;
+  padding-top: 20px;
 }
