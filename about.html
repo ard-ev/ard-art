@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Ard Sadiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Ard Sadiki</a>
+            <ul class="nav-links">
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="work.html">Projekte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="card">
+            <h1>Über mich</h1>
+            <p>
+                Ich komme ursprünglich aus der Elektrobranche und habe mehrere Jahre als Elektroinstallateur gearbeitet.
+                Parallel dazu entwickle ich mich in Richtung Informatik weiter, mit Fokus auf:
+            </p>
+            <ul>
+                <li>Softwareentwicklung (vor allem C#)</li>
+                <li>Webentwicklung (HTML, CSS, JavaScript)</li>
+                <li>Automatisierung und Scripting mit Python</li>
+            </ul>
+            <p>
+                Mein Ziel ist es, praktische Erfahrung aus der Technik mit moderner Softwareentwicklung zu verbinden.
+                Ich lerne ständig dazu, baue eigene Projekte und dokumentiere meinen Fortschritt hier in diesem
+                Portfolio.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Was mich ausmacht</h2>
+            <div class="grid-2">
+                <div>
+                    <h3>Arbeitsweise</h3>
+                    <ul>
+                        <li>Strukturiert und lösungsorientiert</li>
+                        <li>Lernt schnell neue Tools und Technologien</li>
+                        <li>Kommunikativ und teamfähig</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Fokus in der IT</h3>
+                    <ul>
+                        <li>Grundlagen in Netzwerken & Systemen</li>
+                        <li>Applikationsentwicklung & Web-Apps</li>
+                        <li>Clean Code & verständliche Dokumentation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Ard Sadiki · Portfolio</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

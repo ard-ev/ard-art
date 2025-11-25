@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies | Ard Sadiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Ard Sadiki</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="hobbies.html" class="active">Hobbies</a></li>
+                <li><a href="work.html">Projekte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="card">
+            <h1>Hobbies</h1>
+            <p>
+                Neben IT und Technik habe ich ein paar Dinge, die mich motivieren und ausgleichen.
+            </p>
+        </section>
+
+        <section class="grid-3">
+            <article class="card">
+                <h2>Autos & Fotografie</h2>
+                <p>
+                    Ich interessiere mich für Autos und mache gerne Fotos und Reels.
+                    Content erstellen, schneiden und posten gehört für mich inzwischen einfach dazu.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>Sport & Bewegung</h2>
+                <p>
+                    Training, Bewegung und frische Luft sind wichtig, um den Kopf frei zu kriegen
+                    und konzentriert an Projekten arbeiten zu können.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>Lernen & Projekte</h2>
+                <p>
+                    Ich probiere gerne neue Technologien aus, baue kleine Tools, Test-Apps und Scripts,
+                    um mein Wissen praktisch anzuwenden.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Ard Sadiki · Portfolio</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

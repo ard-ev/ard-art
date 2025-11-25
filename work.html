@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekte | Ard Sadiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Ard Sadiki</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="work.html" class="active">Projekte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="card">
+            <h1>Projekte & Arbeitsaufträge</h1>
+            <p>
+                Hier sammle ich ausgewählte Aufgaben und Projekte aus C#, Webentwicklung und Python.
+                Die Links kannst du direkt auf deine Repositories oder Dateien anpassen.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>C# Projekte</h2>
+            <ul class="project-list">
+                <li>
+                    <h3>Minesweeper in C#</h3>
+                    <p>Eigene Umsetzung von Minesweeper mit Windows Forms, Timern und Highscore-Logik.</p>
+                    <a href="#" class="project-link">Zum Repository</a>
+                </li>
+                <li>
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>Einfaches Spiel mit Gewinnlogik, Reset-Funktion und sauberer UI.</p>
+                    <a href="#" class="project-link">Zum Repository</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Webentwicklung (HTML &amp; CSS)</h2>
+            <ul class="project-list">
+                <li>
+                    <h3>Portfolio Website</h3>
+                    <p>Diese Seite hier – cleanes Layout, mehrere Unterseiten, responsive Navigation.</p>
+                    <a href="#" class="project-link">GitHub-Repo</a>
+                </li>
+                <li>
+                    <h3>Kleines Tagebuch-Projekt</h3>
+                    <p>Einfaches Web-Tagebuch mit HTML, CSS und JavaScript.</p>
+                    <a href="#" class="project-link">Zum Projekt</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Python & Sonstiges</h2>
+            <ul class="project-list">
+                <li>
+                    <h3>Python-Skripte</h3>
+                    <p>Kleine Tools zum Automatisieren von Tasks und Rechnen mit Daten.</p>
+                    <a href="#" class="project-link">Python-Repo</a>
+                </li>
+                <li>
+                    <h3>Weitere Projekte</h3>
+                    <p>Platzhalter für zukünftige IT-Projekte und Schulaufgaben.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Ard Sadiki · Portfolio</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
