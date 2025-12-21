@@ -1,21 +1,26 @@
-# ard-art
-# Ard Portfolio
+ard-art
+Ard Sadiki
 
-Willkommen auf meinem persönlichen Portfolio! 👋  
+Welcome to my personal portfolio! 👋
 
-Hier präsentiere ich meine Projekte, Skills und Erfahrungen als angehender Informatiker und Technik-Enthusiast. Diese Website ist auf GitHub Pages gehostet und zeigt meine bisherigen Arbeiten und Lernprojekte.
-!! Bitte Achtet, diese Webseite ist in ständiger verbesserung und umsetzung neuem Wissenstandes von meinem persönlichen Lernfortschritt !!
+Here I present my projects, skills, and experiences as an aspiring computer scientist and technology enthusiast. This website is hosted on GitHub Pages and showcases my previous work and learning projects.
+Please note: this website is continuously being improved and updated as my personal learning progress evolves.
 
-## 🌐 Live-Demo
-Die Website ist online erreichbar unter:  
-[https://ard-ev.github.io/ard-art/](https://ard-ev.github.io/ard-art/)
+🌐 Live Demo
 
-💻 Technologien
-Dieses Portfolio wurde mit den folgenden Technologien umgesetzt:
+The website is available online at:
+https://ard-ev.github.io/ard-art/
 
-- HTML5
-- CSS3 (folgt)
-- JavaScript (folgt)
-- GitHub Pages für Hosting
+💻 Technologies
+
+This portfolio was built using the following technologies:
+
+HTML5
+
+CSS3 (coming soon)
+
+JavaScript (coming soon)
+
+GitHub Pages for hosting
 
 📂 Projektstruktur
