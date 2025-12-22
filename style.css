@@ -78,40 +78,45 @@ header {
 }
   
 
-/* Hero-Section (Startseite) */
-.hero {
+/* Hero-Pad (Startseite) */
+.pad {
     display: flex;
       justify-content: center;
       padding: 3rem 1.5rem;
+      position: sticky;
     }
- .hero-box {
+.box {
    display: flex;
     gap: 3rem;
-      width: 100%;
+      width: 60%;
       max-width: 1100px;
     background: radial-gradient(circle at top left, #bbdb9b, #abc4a1);
       border-radius: 1.5rem;
       padding: 3rem;
       box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5);
-    }
+      align-items: center;
+}
 
-.hero-text {
+.pad-text {
   flex: 1;
+  align-items: center;
+    display: flex;
+    flex-direction: column;
 }
             
-.hero h1 {
+.pad h1 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
   color: #464f51;
 }
 
             
-.hero p {
+.pad p {
 margin: 1rem;
   color: #464f51;
 }
 
-/* Bild rechts sauber, nicht winzig, nicht verzerrt */
+
 .meinbild {
   width: 280px;
   max-width: 320vw;
@@ -126,18 +131,6 @@ margin: 1rem;
   justify-content: center;
 }
 
-
-/* Mobile: untereinander, bleibt schön */
-@media (max-width: 900px) {
-  .hero-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-    .meinbild {
-      width: 220px;
-    }
-}
   
 
 /* Button-Style*/
@@ -161,7 +154,7 @@ margin: 1rem;
 
 
 /* Primary-Button*/
-.btn-primary {
+.btn-pad {
   padding: 0.7rem 1.5rem;
   margin: 1.5rem;
   background: #8d9d90;
@@ -170,9 +163,9 @@ margin: 1rem;
     border-radius: 999px;
   font-size: 0.95rem;
     text-decoration: none;
-  transition: transform 0.5s ease, box-shadow 0.5s ease, background 0.8s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.5s ease;
 }
-.btn-primary:hover {
+.btn-pad:hover {
   background: #abc4a1;
   box-shadow: 0 5px 10px rgba(70, 79, 81, 1);
   transform: translateY(-5px);
@@ -188,7 +181,7 @@ margin: 1rem;
 }
   
 .card {
-  background: #bbdb9b;
+  background: radial-gradient(circle at top left, #bbdb9b, #abc4a1);
   border-radius: 1.2rem;
   padding: 1.8rem;
   margin-bottom: 1.5rem;
@@ -272,27 +265,37 @@ footer {
 
 /* Responsive Anpassungen */
 
-/* Tablet & kleiner Laptop */
-@media (max-width: 1024px) {
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1199px) {
   .hero-text {
     padding: 2rem 1.5rem;
   }
-}
+    .box {
+      flex-direction: column;
+      justify-content: center;
+    }
+    }
 
 
-/* Mobile */
-@media (max-width: 768px) {
-  .hero-box {
+/* Tablet & Handy*/
+@media (min-width:320px) and (max-width: 768px) {
+  .box {
     flex-direction: column;
     text-align: center;
-  }
+    align-items: center;
+    }
+    
+    .btn-primary {
+      padding: 0.7rem 0.5rem;
+      margin: 0.5rem;
+    }
+    
+    .meinbild {
+      justify-content: center;
+      width: 100%;
+      
 
     .hero-text {
     padding: 1.8rem 1.2rem;
     }
-    }
-/* Sehr kleine Geräte */
-@media (max-width: 480px) {
-  .hero-text {
-    padding: 1.5rem 1rem;
-  
+}
