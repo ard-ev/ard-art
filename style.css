@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* Seite soll volle Höhe haben */
 html,
 body {
@@ -25,6 +26,7 @@ body {
 main {
   flex: 1;
 }
+
 
 
 /* Navbar */
@@ -77,6 +79,7 @@ header {
     color: #f9fafb;
 }
   
+
 
 /* Hero-Pad (Startseite) */
 .pad {
@@ -133,6 +136,7 @@ margin: 1rem;
 
   
 
+
 /* Button-Style*/
 .btn {
       margin: 1.5rem;
@@ -172,6 +176,7 @@ margin: 1rem;
 }
 
 
+
   /* Content-Seiten */
   
 .content {
@@ -207,6 +212,36 @@ margin: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
   margin-top: 0.5rem;
+}
+/*Download Button*/
+
+.btndwn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-download {
+  padding: 0.7rem 1.5rem;
+  margin: 1rem;
+  background: #8d9d90;
+  color: #464f51;
+  border: 1px solid #464f51;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.5s ease;
+}
+
+.btn-download:hover {
+  background: #abc4a1;
+  box-shadow: 0 5px 10px rgba(70, 79, 81, 1);
+  transform: translateY(-5px);
+}
+
+
+
+.grid-2 ul {
+  list-style: none;
 }
   
 .grid-3 {
@@ -252,6 +287,7 @@ margin: 1rem;
   text-decoration: underline;
 }
   
+
 /* Footer */
   
 footer {
@@ -263,10 +299,11 @@ footer {
   background: #8d9d90;
 }
 
+
 /* Responsive Anpassungen */
 
 /* Laptop */
-/*@media (min-width: 769px) and (max-width: 1199px) {
+@media (min-width: 769px) and (max-width: 1199px) {
   .hero-text {
     padding: 2rem 1.5rem;
   }
@@ -274,32 +311,61 @@ footer {
       flex-direction: column;
       justify-content: center;
     }
+}
+/*Tablet*/
+@media (min-width: 600px) and (max-width: 1023px) {
+  .box {
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+  }
+
+        .hero-text {
+          padding: 2rem 1.5rem;
         }
-    
-        */
-
-
-/* Tablet & Handy
-@media (min-width:320px) and (max-width: 768px) {
+        }
+                                /* Handy*/
+                                @media (max-width: 599px) {
   .box {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    }
+    gap: 0rem;
+      width: 100%;
     
-    .btn-primary {
-      padding: 0.7rem 0.5rem;
+      .btn-primary {
+    padding: 0.7rem 0.8rem;
       margin: 0.5rem;
     }
     
     .meinbild {
       justify-content: center;
       width: 100%;
-      
-
-    .hero-text {
-    padding: 1.8rem 1.2rem;
+  .hero-text {
+      padding: 1.6rem 1.1rem;
     }
-}
+  
+    .nav-links {
+      width: 100%;
+      font-size: 0.1rem;
+      padding: 0.5rem;
+      ;
+      margin: 0.5rem;
+      display: flex;
+    }
 
-*/
+                .logo {
+                  font-size: 1rem;
+                }
+.navbar {
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    
+.btn-download {
+  margin: ;
+  
+}
