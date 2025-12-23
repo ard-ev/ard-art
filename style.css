@@ -266,7 +266,7 @@ footer {
 /* Responsive Anpassungen */
 
 /* Laptop */
-@media (min-width: 769px) and (max-width: 1199px) {
+/*@media (min-width: 769px) and (max-width: 1199px) {
   .hero-text {
     padding: 2rem 1.5rem;
   }
@@ -274,10 +274,12 @@ footer {
       flex-direction: column;
       justify-content: center;
     }
-    }
+        }
+    
+        */
 
 
-/* Tablet & Handy*/
+/* Tablet & Handy
 @media (min-width:320px) and (max-width: 768px) {
   .box {
     flex-direction: column;
@@ -299,3 +301,5 @@ footer {
     padding: 1.8rem 1.2rem;
     }
 }
+
+*/
