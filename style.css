@@ -327,9 +327,11 @@ footer {
 
 /* Laptop */
 @media (min-width: 769px) and (max-width: 1199px) {
+  
   .pad-text {
     padding: 2rem 1.5rem;
   }
+
     .box {
       flex-direction: column;
       justify-content: center;
@@ -338,70 +340,80 @@ footer {
 
 /*Tablet*/
 @media (min-width: 600px) and (max-width: 1023px) {
+  
   .box {
     flex-direction: column;
     justify-content: center;
     width: 70%;
   }
 
-    .pad-text {
-      padding: 1rem 1.5rem;
-    }
-.btn-pad {
-  padding: 0.5rem 0.8rem;
-  margin: 0.5rem;
-}
+  
+  .pad-text {
+    padding: 1rem 1.5rem;
+  }
+  .btn-pad {
+    padding: 0.5rem 0.8rem;
+    margin: 0.5rem;
+  }
+
 }
 
 /* Handy*/
-@media (max-width: 600px) {
+@media (min-width:320px) and (max-width: 600px) {
+
+  
   .box {
     flex-direction: column;
     text-align: center;
     align-items: center;
     gap: 0rem;
     width: 100%;
+  }
   
     
-    .btn-pad {
+  .btn-pad {
       padding: 0.5rem 0.8rem;
       margin: 0.5rem;
+  } 
     
   
     
-    .meinbild {
-      justify-content: center;
-      width: 100%;
-    
+  .meinbild {
+    justify-content: center;
+    width: 100%;
+  }
   
-  
-        .nav-links ul a {
-          width: 80%;
-          font-size: 1rem;
-          padding: 1px;
-          margin: 1px;
+   .nav-links ul a {
+      width: 80%;
+      font-size: 1rem;
+      padding: 1px;
+      margin: 1px;
       display: flex;
+ } 
     
   
 
-    .logo {
+  .logo {
     font-size: 1rem;
-      margin-bottom: 1rem;
-    }
+    margin-bottom: 1rem;
+  }
 
-    .navbar {
-      width: 100%;
-      margin: 0.5rem;
-      padding: 0.5rem;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      }
-    .card {
-      width: 90%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+  .navbar {
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
+
 }
