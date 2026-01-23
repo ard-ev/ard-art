@@ -279,12 +279,16 @@ margin: 1rem;
   
 .project-link {
   text-decoration: none;
-  color: #f18701;
+  color: #29524A;
   font-size: 0.9rem;
+  background-color:rgba(0,0,0,0);
+  border-radius:99px;
+  padding:7px;
+  border:1px solid #29524A;
 }
   
 .project-link:hover {
-  text-decoration: underline;
+  background-color:#DDE8E1;
 }
   
 
